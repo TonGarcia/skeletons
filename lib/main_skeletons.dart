@@ -1,4 +1,4 @@
-library skeletons;
+library main_skeletons;
 
 export './src/shimmer.dart';
 export './src/stylings.dart';

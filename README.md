@@ -2,6 +2,10 @@
 
 A Flutter package for building custom skeleton widgets to mimic the page's layout while loading.
 
+## Publishing new versions
+
+`$ rm -rf pubspec.lock && flutter pub get && flutter pub publish --dry-run && flutter pub publish`
+
 ## Examples
 
 

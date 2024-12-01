@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:skeletons/skeletons.dart';
+import 'package:main_skeletons/skeletons.dart';
 
 class SkeletonTestWidget extends StatefulWidget {
   final bool isLoading;
