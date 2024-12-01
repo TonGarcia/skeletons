@@ -4,7 +4,8 @@ A Flutter package for building custom skeleton widgets to mimic the page's layou
 
 ## Publishing new versions
 
-`$ rm -rf pubspec.lock && flutter pub get && flutter pub publish --dry-run && flutter pub publish`
+1. `$ rm -rf pubspec.lock && flutter pub get && flutter pub publish --dry-run &&`
+2. `$ flutter pub publish`
 
 ## Examples
 
@@ -30,7 +31,7 @@ All examples can be found here [examples](https://github.com/badjio/skeletons/tr
 Can be used by encapsulating the child widget in a Skeleton widget:
 
 ```dart
-import 'package:skeletons/skeletons.dart';
+import 'package:main_skeletons/skeletons.dart';
 
 Skeleton(
         isLoading: _isLoading,
